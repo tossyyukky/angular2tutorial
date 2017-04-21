@@ -1,5 +1,6 @@
 {
   "server": {
+    "port": "process.env.PORT",
     "baseDir": "src",
     "routes": {
       "/node_modules": "node_modules"
