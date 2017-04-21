@@ -1,10 +1,11 @@
 {
   "server": {
     "port": "process.env.PORT",
-    "open": false,
     "baseDir": "src",
     "routes": {
       "/node_modules": "node_modules"
     }
-  }
+  },
+
+  "open": false
 }
